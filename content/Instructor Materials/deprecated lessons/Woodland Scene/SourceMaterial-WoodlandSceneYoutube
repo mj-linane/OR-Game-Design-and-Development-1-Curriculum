@@ -1,0 +1,190 @@
+# SOURCE MATERIAL: WOODLAND SCENE YOUTUBE
+
+Unit Tags: Game: Woodland Basecamp
+
+## Unreal Parts
+
+1. Main screen / entire screen = Level Editor
+2. Tab Bar & Menu Bar
+3. Far right tab bar = name of project
+4. Top of display screen = toolbar
+5. Viewport = 1 or more panels that show the game environment you are currently working in
+6. Details panel = on right right
+7. World Outliner = top right corner
+8. Modes Panel = on left
+9. Content Browser = bottom of screen = place to deal with all of the textures and meshes
+
+## Create File
+
+1. Go to top folder called "file new level"
+2. Create a new Folder called "Maps"
+3. Save Level As "Landscape"
+4. Navigation by holding down right click
+5. Change Camera Speed → 8
+
+## Landscape Sculpt
+
+1. Fact: Unreal has a built in continuous LOD as player moves around
+2. Landscape Tool
+    1. Don't change anything about the scale
+    2. Create Landscape - change section size to 31 x 31 (more aggressive at applying LOD), smaller sections have a higher impact on the CPU, vast, sprawling landscape needs a larger Section size
+    3. Component is smallest unit - default 
+3. Sculpt Tool
+    1. Tip: Change Sculpt Tool Strength from 0.3 → .1
+    2. Shift and Click will drop the terrain
+    3. Action: Create hills and valleys
+4. Smooth Tool
+5. Flatten Tool (To create a castle)
+    1. Starts from the height of wherever I clicked first
+6. Ramp Tool
+7. Thermal Erosion (Simulates dirt and rocks)
+    1. Tips: Gives it a "sandy look" for a little more natural
+8. Hydro Erosion
+9. Noise Tool
+    1. Tips: To add variation to land really quickly
+    2. A little harsh so not fun to run over, go over with smooth afterwards
+10. Retopologize
+    1. Evens out the landscape so that the textures fit over it better (less texture stretching)
+11. Visibility Tool
+    1. To create holes
+12. DELETE LANDSCAPE to move on from practice
+    1. Place Mode
+    2. Select landscape actor and landscape under Outliner on left, and select and delete
+
+## Create Landscape Using Heightmap (Use to create terrain quickly)
+
+1. 16-bit, grayscale PNG file.
+2. Landscape → Import from File
+    1. Tips: When exporting heightmaps from external programs, open the following formats are usable inside UE4
+        1. 16-bit, grayscale .RAW file in little-endian byte order
+
+## To Sculpt Hills Around Edge (To prevent falling off)
+
+1. Tips: Click play to run around map to see the scale of it
+2. First build hills
+3. Next press play to see how it looks
+4. Next, use the Erosion tool with settings
+    1. Tool strength: 0.1
+    2. Threshold: 128
+    3. Surface Thickness: 512
+5. Hydro Erosion:
+    1. Tool strength: 0.1
+    2. Rain Amount: 256
+    3. Iterations: 28
+    4. Rain Dist Scale: 12.0
+    5. Tips: Be careful of where the slope meets the ground, you can overdo it very quickly
+6. Noise Tool (For flat area to make it look more realistic)
+    1. Set noise scale to 65
+    2. Just click once over the entire flat map
+    3. Click play to test
+7. Smooth Tool
+    1. Click once just to control large changes in terrain
+
+## Materials Tool (Step 9) - Creating New Materials
+
+What are materials? Are assets applied to meshes to control how they look. Specifying properties like Metallic, colors, shading. They are constructed in visual scripting through a network of nodes called material expressions. These include mathematical operations and textures, so like digital images. Materials are built using the materials editor. 
+
+## Organize
+
+1. Create new folder called Materials
+2. Create new folder called Textures
+3. Go into Materials folder
+    1. Right click and click create Materials
+    2. name it M_landscapePractice
+    3. "M_" denotes that this is a material
+    4. Right click on M_landscapePractice
+    5. Drag materials editor tab to the top of the window next to level chapter 2 tab
+
+## #10 Getting To Know Material Editor Interface
+
+- Viewport is in the top left, it will show the material applied onto the Mesh
+- Details panel shows properties of the material
+- Graph panel in center. Create and connect materials expression and functions. It is important to keep things as neat and organized as possible.
+- Right hand side is the Palette, lists all different nodes to be included into the material. Can be drag and dropped into the graph.
+- Bottom, stats panel contains important info about the material. The fewer instructions in the material, the faster the rendering.
+
+## #11 Changing the Base Color of the Material
+
+1. Using a Constant3Vector node. 3 values: Has three constants: Red, Green, Blue
+    1. Drag into graph
+2. Left click on the black in the details panel
+3. Change the colors to make grass
+    1. Make sure to increase the darkness so it isn't just black
+4. We need to choose an input to connect the node using the output pin
+5. click on Save in the material editor
+
+## #12 Applying Material to Landscape Mesh
+
+1. Leftclick on the Place tab in the top left
+2. Left click the landscape
+3. Scroll down to landscape. It should say, landscape material none
+    1. Click on the None and search for landscape material practice
+    2. Left click on it
+4. This looks like crap because it is shiny. We want a matte material. We need to set a roughness value
+
+## #13 Adding Roughness Value to a Material
+
+1. Go back to the material tab
+2. Roughness works from 0-1 in unreal. Literally determining how much light is scattered.
+3. Type Constant from Palette
+4. Drag and connect to roughness
+5. In details panel, set roughness value to .75
+
+## #14 Importing Assets into Unreal (Textures)
+
+1. Import into textures folder the textures
+
+## #15 Adding a Texture to the Base Color of a Material (1:19:00)
+
+1. Replace 3vector node, or disconnect by holding ALT+Left click
+2. Right click on graph
+3. Start typing texture sample
+4. Plug into base color
+5. Grass is already there because in the folder, I had grass selected already
+6. Select right glass — Diffuse or Albedo for the base color
+7. Playtest - looks a little flat right? We need a normal map
+
+---
+
+## #16 Adding Normal Map to Material
+
+What is a normal map? When the material is on a mesh, it controls what will happen when light hits a particular pixel. It will either look bumpy or smooth. We want rough grass.
+
+1. Easy way? Hold T and left click
+2. Select the normal texture and plug it into the Normal plugin
+3. save and playtest
+
+## #17 Using Comments to Organize the Material Graph
+
+---
+
+1. Materials can get complicated because wires can get crossed in more complex levels
+2. Overkill for material this simple
+3. Select node and Press C, name it, and press enter
+
+---
+
+## #18 Using Parameters and Materials Instances
+
+Every time we have edited our material, we have had to save. We can update things on the fly now with sliders. All how you set it up. Instead of constants, you change it to scalable. Change it to a scaler.
+
+1. Right click on roughness and convert to parameter
+2. Whatever you call it with a name, is what you are going to use when you scale it.rough
+3. Name it Rough
+4. Change the Scalar Parameter
+    1. Default .75
+    2. Min 0
+    3. Max 1.0
+5. Create instance of the material
+6. Go into Materials folder
+7. You don't assign master material, assign instance of the master material. 
+8. Go to Materials Folder, right click on materials, create instance
+9. Select landscape Mesh, go to landscape details, and replace Landscape Material with the Instance.
+10. Double click on material and it goes really big, drag it down to the bottom right.
+11. Enable the Parameter materials
+12. Modify the value and save
+
+---
+## Resources
+
+Heightmap Generator: [https://terrain.party/](https://terrain.party/)
