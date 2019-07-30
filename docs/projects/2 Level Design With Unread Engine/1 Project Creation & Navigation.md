@@ -1,7 +1,10 @@
-# 13 Intro to Unreal — Starting A Project
+# Starting an Unreal Engine Project
 
+Author: MJ Linane
 Date: Mar 06, 2019
-Lesson Number: 13
+Lesson: #13
+
+---
 
 ## Activities
 
