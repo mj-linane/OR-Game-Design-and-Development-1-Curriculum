@@ -8,7 +8,7 @@ course: 'or-game-design-1-unity-lesson-plans'
 1. Welcome everyone to course
 2. Introduce Myself
 3. Student Introductions / Take Attendance
-4. **FAQs**
+4. **FAQs/Syllabus**
    1. Where in building? - 1st FLOOR CORNER OF ART AND MATH WINGS
    2. What lunch? - MIDDLE
    3. When hybrid out check in? - START OF CLASS
