@@ -1,1 +1,5 @@
-.gdoc
+# Google Doc
+*.gdoc
+
+# Google Slides
+*.gslides
