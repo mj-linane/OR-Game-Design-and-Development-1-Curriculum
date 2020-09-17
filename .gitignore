@@ -9,3 +9,6 @@
 
 # PDF
 *.PDF
+
+# Google Sheets
+*.gsheet
