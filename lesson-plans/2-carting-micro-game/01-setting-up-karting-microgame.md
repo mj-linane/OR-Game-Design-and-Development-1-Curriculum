@@ -20,8 +20,9 @@ We save all of our projects in the H:// drive at school. You can save it to what
 
 ## Step 3: Turn on Unity Services and Collaborate
 
-1. [Setup Your Project for Unity Services](https://docs.unity3d.com/Manual/SettingUpProjectServices.html)
-2. [Setup Your Project for Unity Collaborate](https://docs.unity3d.com/Manual/UnityCollaborateSettingUp.html)
+1. Make sure you are logged into Unity.
+2. [Setup Your Project for Unity Services](https://docs.unity3d.com/Manual/SettingUpProjectServices.html)
+3. [Setup Your Project for Unity Collaborate](https://docs.unity3d.com/Manual/UnityCollaborateSettingUp.html)
 
 ## Step 4: Complete the Getting Started Tutorials
 
@@ -54,4 +55,7 @@ Those that are **more comfortable** can go on to complete the Level 2 mods:
 
 ## Step 7: Save Your Game and Version
 
-1.
+1. Save Your Game
+2. Click on "Collab" in the top right. Type in a comment that describes the changes you made to your game. For this first time install, we can just type "Setup Project".
+3. Click "Publish Now"
+4. You can now close your project.
