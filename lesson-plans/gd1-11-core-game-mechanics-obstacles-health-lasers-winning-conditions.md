@@ -1,32 +1,6 @@
 ---
 title: 'GD1 11: Designing Core Game Mechanics + Coding Obstacles, Health, Lasers, Winning Conditions'
-date: '2019-10-02T09:29:37-04:00'
-status: publish
-permalink: /courses/game-design-and-development-1/lessons/gd1-11-core-game-mechanics-obstacles-health-lasers-winning-conditions
-author: 'MJ Linane'
-excerpt: ''
-type: sfwd-lessons
-id: 26144
-ld_lesson_category: []
-ld_lesson_tag: []
-course_template:
-    - ''
-wp_last_modified_info:
-    - 'March 5, 2020 @ 11:21 am'
-wplmi_shortcode:
-    - '[lmt-post-modified-info]'
-site-sidebar-layout:
-    - default
-site-content-layout:
-    - default
-theme-transparent-header-meta:
-    - default
-stick-header-meta:
-    - default
-ld_course_25474:
-    - '25474'
-course_id:
-    - '25474'
+
 ---
 Defining Core Game Mechanics &amp; Meaningful Play
 ==================================================
@@ -37,7 +11,7 @@ Defining Core Game Mechanics &amp; Meaningful Play
 
 **Making activity meaningful.** An important part of game design is to make the core mechanic of your particular game meaningful. Whether it is reading text and clicking on links, moving through a 3D space, or moving pawns on a gameboard grid – how can you make *that* activity meaningful? Giving a player meaningful choice means providing a context for players to know what their choices are, to be able to choose one option out of several, and to understand how their choice has affected the state of the game.
 
-**Action -&gt; Outcome.** As players play a game, they make many small decisions – whether the decisions are made in real-time, as in a sport or action videogame, or whether they are happening discretely, as in a strategy game where play happens in turns. Each ***action*** a player takes has some kind of ***outcome*** in the game. These action/outcome moments are the molecules of meaningful play. Gameplay is the moment-to-moment experience of these small pearls of decisions, strung together to extend across longer periods of play.
+**Action and Outcome.** As players play a game, they make many small decisions – whether the decisions are made in real-time, as in a sport or action videogame, or whether they are happening discretely, as in a strategy game where play happens in turns. Each ***action*** a player takes has some kind of ***outcome*** in the game. These action/outcome moments are the molecules of meaningful play. Gameplay is the moment-to-moment experience of these small pearls of decisions, strung together to extend across longer periods of play.
 
 **Designing a context of meaning.** A game design should provide a context in which every player choice is meaningful. If a Chess set is sitting on a coffee table as merely a conversation piece, moving one of the pieces on the grid doesn’t really change that much. But if a game is in session, it suddenly matters very much exactly which piece you move, and when, and where. What does an action *mean* in the game – how does its outcome ramify over time? A player’s action becomes meaningful in the context of the game. The game is the context that helps to provide meaning for the action.
 
