@@ -1,5 +1,5 @@
 ---
-title: 'Setting Up the Carting Microgame'
+title: 'Karting Game: Day 1 (Setting Up Project)'
 author: 'MJ Linane'
 date: '09-24-2020'
 lesson number: '1'
@@ -46,8 +46,7 @@ Those that are **all students** should look to complete the following:
 5. [Karting Mod: Bouncy Sparkly!](https://learn.unity.com/tutorial/karting-mod-bouncy-sparkly?uv=2019.3&projectId=5c82b27cedbc2a0e8db0c728)
 6. [Karting Mod: Add Sparkling Particle Effects](https://learn.unity.com/tutorial/karting-mod-add-particles?projectId=5c82b27cedbc2a0e8db0c728)
 
-Feeling Comfortable? Move On To Level 2 Mods
---------------------------------------------
+## Step 6: Feeling Comfortable? Move On To Level 2 Mods
 
 Those that are **more comfortable** can go on to complete the Level 2 mods:
 

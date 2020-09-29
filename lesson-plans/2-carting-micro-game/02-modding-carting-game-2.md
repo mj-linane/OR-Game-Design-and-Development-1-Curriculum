@@ -1,11 +1,14 @@
+---
+title: 'Karting Game: Day 2 (Mods)'
+author: 'MJ Linane'
+date: '09-29-2020'
+course: 'G:\My Drive\.work-code\or-game-design-1-unity-lesson-plans\lesson-plans\2-carting-micro-game'
+lesson number: ''
+---
 
-Modifying The Kart Game
------------------------
+## Karting Game: Modifying the Game
 
 Now that you have built the Carting Micro-Game, your goal today will be to continue to add some mods and polish to it.
-
-Continuing the Mods — Level 1 Mods
-----------------------------------
 
 Add the following mods to your game:
 
@@ -18,8 +21,7 @@ Those that are **all students** should look to complete the following:
 5. [Karting Mod: Bouncy Sparkly!](https://learn.unity.com/tutorial/karting-mod-bouncy-sparkly?uv=2019.3&projectId=5c82b27cedbc2a0e8db0c728)
 6. [Karting Mod: Add Sparkling Particle Effects](https://learn.unity.com/tutorial/karting-mod-add-particles?projectId=5c82b27cedbc2a0e8db0c728)
 
-Feeling Comfortable? Move On To Level 2 Mods
---------------------------------------------
+## Feeling Comfortable? Move On To Level 2 Mods
 
 Those that are **more comfortable** can go on to complete the Level 2 mods:
 
