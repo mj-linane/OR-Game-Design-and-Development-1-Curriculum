@@ -24,7 +24,7 @@ Feeling Comfortable? Move On To Level 2 Mods
 Those that are **more comfortable** can go on to complete the Level 2 mods:
 
 1. [Karting Mod: Build Your Own Track](https://learn.unity.com/tutorial/karting-mod-build-your-own-track?projectId=5c82b27cedbc2a0e8db0c728)
-2. [Karting Mod: Add Speed Pads]((https://learn.unity.com/tutorial/karting-mod-go-speed-racer-add-speed-pads-updated?uv=2019.3&projectId=5c82b27cedbc2a0e8db0c728))
+2. [Karting Mod: Add Speed Pads](https://learn.unity.com/tutorial/karting-mod-go-speed-racer-add-speed-pads-updated?uv=2019.3&projectId=5c82b27cedbc2a0e8db0c728)
 3. [Karting Mod: Bumpy Road](https://learn.unity.com/tutorial/karting-mod-bumpy-road?projectId=5c82b27cedbc2a0e8db0c728)
 4. [Karting Mod: Crash Course](https://learn.unity.com/tutorial/karting-mod-crash-course-game-mode?uv=2019.3&start=true&projectId=5c82b27cedbc2a0e8db0c728)
 5. [Karting Mod: Beat the Clock Game](https://learn.unity.com/tutorial/karting-mod-beat-the-clock-game-mode?uv=2019.3&projectId=5c82b27cedbc2a0e8db0c728)
