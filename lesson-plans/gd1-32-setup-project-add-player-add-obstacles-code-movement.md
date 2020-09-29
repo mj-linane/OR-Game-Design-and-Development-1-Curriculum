@@ -1,35 +1,8 @@
 ---
 title: 'Lesson 32: Setup Project, Add Player, Add Obstacles, Code Movement'
-date: '2019-12-04T11:53:02-05:00'
-status: publish
-permalink: /lessons/lesson-32-setup-project-add-player-add-obstacles-code-movement
-author: 'MJ Linane'
-excerpt: ''
-type: sfwd-lessons
-id: 26825
-ld_lesson_category: []
-ld_lesson_tag: []
-course_template:
-    - ''
-wp_last_modified_info:
-    - 'December 6, 2019 @ 12:45 pm'
-wplmi_shortcode:
-    - '[lmt-post-modified-info]'
-course_id:
-    - '0'
-ld_course_25474:
-    - '25474'
-site-sidebar-layout:
-    - default
-site-content-layout:
-    - default
-theme-transparent-header-meta:
-    - default
-stick-header-meta:
-    - default
 ---
-1. Introduction
----------------
+
+## 1. Introduction
 
 <figure class=""><iframe allowfullscreen="" height="1000px" src="https://player.vimeo.com/video/345549744?app_id=122963" width="100%"></iframe></figure>### **Overview**
 
@@ -104,7 +77,7 @@ The character, background, and obstacle of your choice will be set up. The playe
 2. Add a new ***public float gravityModifier*** variable and in ***Start()***, add ***Physics.gravity \*= gravityModifier;***
 3. In the inspector, tweak the ***gravityModifer****,* ***jumpForce***, and **Rigibody** mass values to make it fun
 
-<div class="wp-block-image"><figure class="aligncenter">![](https://connect-prd-cdn.unity.com/20190529/learn/images/e03247cb-f20f-4dab-848f-f4e34c506296_3.1_5.PNG)</figure></div>All Done? 
+<div class="wp-block-image"><figure class="aligncenter">![](https://connect-prd-cdn.unity.com/20190529/learn/images/e03247cb-f20f-4dab-848f-f4e34c506296_3.1_5.PNG)</figure></div>All Done?
 ----------
 
 Try modifying your game by:
