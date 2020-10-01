@@ -25,18 +25,18 @@ Most of the time, you’ll solve your problem after doing a quick Google search 
 
 ## Activities
 
-### Setup The Playground Game
+### 1. Setup The Playground Game from the Unity Store
 
-1. Start a new game from the Unity Hub > New > Select Engine > 2019.4.11f
+1. Start a new game from the Unity Hub > New > 3D (Using Engine 2019.4.11f)
 2. Name the game: `Playgrounds - Space Shooter`
 3. Location: H://
-4. Once game loads go to the (Playgrounds Package in the Unity Store)[https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-playground-109917]
+4. Once game loads go to the [Playgrounds Package in the Unity Store](https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-playground-109917)
 5. Login, click on Add to My Assets, Click on "Open In Unity"
 6. That will now bring you to the Unity Package Manager in Your Project, click on "Import" in the bottom right.
 
 Review all of the new asset files that you now have access to.
 
-### Setting Up The Level and Character
+### 2. Setting Up The Level and Character
 
 You’ll set the scene by creating a background for your game.
 
@@ -46,7 +46,7 @@ You’ll set the scene by creating a background for your game.
 4. Expand the Visibility Options and set the Sorting Layer to Background to ensure that this element will always be behind other game elements
 5. Resize `BG_Space` to fit the whole screen by making sure that the image covers the grey rectangle that represents the camera
 
-### 2. Create and Add Interactivity to the Player
+### 3. Create and Add Interactivity to the Player
 
 1. Go to Project > Images > Spaceships > SpaceshipRed
 2. In the Project View, navigate to Images > Backgrounds > `BG_Space` and drag it into the Hierarchy
@@ -66,7 +66,7 @@ You’ll set the scene by creating a background for your game.
 
 - Changes made in the Play mode are not saved! Get out of the Play mode and make the changes again if you want them to be reflected in the game
 
-### 3. Add the Rotate script to the Player
+### 4. Add the Rotate script to the Player
 
 1. Go to Inspector > Add Component > Search for Rotate and add it to allow steering
 2. Change the Input keys (Type of Central) from Arrow Keys to WASD
@@ -74,7 +74,7 @@ You’ll set the scene by creating a background for your game.
    1. Rigidbody 2D > Angular Friction
    2. Rotate (Script) > Speed
 
-### 4. Add a Flame to the Spaceship
+### 5. Add a Flame to the Spaceship
 
 Now for the finishing touches: you’ll add a particle to your player to make it look more animated.
 
@@ -84,13 +84,11 @@ Now for the finishing touches: you’ll add a particle to your player to make it
    1. While selecting `P_Flame` in the Hierarchy, go to Inspector > Transform
    2. Change the Position, Rotation, and Scale values to your preference. You can also do this by using the Position, Rotate, and Scale tools on the top left hand part of the screen
 
-### 5. Save The Scene
+### 6. Save The Scene
 
 Save the scene by going to File > Save As > Level 1 and save it in the Scenes folder
 
-### 6. Setup Camera and Collisions
-
-### 7. Adjusting the Camera
+### 7. Setup Camera
 
 You’ll change the view frame and make the camera follow an object by adding the `Camera Follow` script
 
@@ -125,7 +123,7 @@ To submit evidence of your game progress, you will submit screenshots/recording 
 
 #### Mac
 
-[Mac Instructions](https://support.apple.com/en-us/HT201361)
+[Mac Instructions](https://support.apple.co/HT201361)
 
 ### 9: Save Your Game and Version
 
