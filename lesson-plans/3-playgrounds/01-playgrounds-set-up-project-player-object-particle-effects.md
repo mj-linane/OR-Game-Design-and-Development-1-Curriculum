@@ -102,4 +102,34 @@ You’ll change the view frame and make the camera follow an object by adding th
 
 ### Toggling Playground Mode
 
-When you use Playground, the Unity Interface is simplified and made easier to read for beginners. If you ever want to use the original Unity interface, you can go to the top left hand screen and click Playground > Turn Playground Off
+When you use Playground, the Unity Interface is simplified and made easier to read for beginners. If you ever want to use the original Unity interface:
+
+1. Go to the top menu
+2. click `Playground` > `Turn Playground Off`
+
+### 8: Take Screenshots
+
+To submit evidence of your game progress, you will submit screenshots/recording of your different mods. The best time to do this is in play mode.
+
+### How To Take Screenshots
+
+#### Windows 10
+
+1. Click on Start
+2. Go to "Snip and Sketch"
+3. Click on New
+4. Select the area of the screen you want to save.
+5. Once the image is clipped, click on the Save button in the top right.
+6. Select save location.
+7. Upload to Google Classroom assignment.
+
+#### Mac
+
+[Mac Instructions](https://support.apple.com/en-us/HT201361)
+
+### 9: Save Your Game and Version
+
+1. Save Your Game
+2. Click on "Collab" in the top right. Type in a comment that describes the changes you made to your game. For this first time install, we can just type "Setup Project".
+3. Click "Publish Now"
+4. You can now close your project.
