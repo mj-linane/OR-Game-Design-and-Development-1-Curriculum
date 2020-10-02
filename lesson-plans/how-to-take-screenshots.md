@@ -13,10 +13,3 @@
 ### Mac
 
 [Mac Instructions](https://support.apple.com/en-us/HT201361)
-
-## Step 4: Save Your Game and Version
-
-1. Save Your Game
-2. Click on "Collab" in the top right. Type in a comment that describes the changes you made to your game. For this first time install, we can just type "Setup Project".
-3. Click "Publish Now"
-4. You can now close your project.
