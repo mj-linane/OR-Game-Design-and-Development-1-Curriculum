@@ -7,4 +7,7 @@
 5. Karting Microgame
 6. Karting Microgame Mods / Collaborate
 7. Core Game Mechanics
-8. Playgrounds Day 1
+8. Playgrounds Day 1 - PLayer Control, Camera, Collision
+9. Freeplay Day 1
+10. Player Interaction Models
+11. Playgrounds Day 2

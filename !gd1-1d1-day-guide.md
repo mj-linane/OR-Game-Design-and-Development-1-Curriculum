@@ -6,4 +6,6 @@
 4. FPS Microgame Day 1, Unity Collaborate
 5. Core Game Mechanics
 6. Karting Microgame Day 1
-7. Karing Microgame Day 2
+7. Karting Microgame Day 2
+8. Player Interaction Models
+9. Playgrounds - Setup Game, Player Control, Camera, Collision
