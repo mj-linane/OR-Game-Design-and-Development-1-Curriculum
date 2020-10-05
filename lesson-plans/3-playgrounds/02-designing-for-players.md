@@ -16,7 +16,9 @@ Play a game of Tic-Tac-Toe and use it to complete a list of rules on the Tic-Tac
 
 ![Player Interaction Models](../../images/PlayerInteractionsinGames.gif)
 
-*Question: What are games that demonstrate each player interaction model?*
+### Discussion
+
+*Question: For each player interaction model, list a game that What are games that demonstrate each player interaction model?*
 
 ## Redesigning Tic-Tac-Toe
 
