@@ -42,21 +42,23 @@ You’ll set the scene by creating a background for your game.
 
 1. Create a new scene by going to File > Create a New Scene
 2. In the Project View, navigate to Images > Backgrounds > `BG_Space` and drag it into the Hierarchy
-3. Go to the Inspector window and change the Draw Mode from Simple to Tiled.
-4. Expand the Visibility Options and set the Sorting Layer to Background to ensure that this element will always be behind other game elements
-5. Resize `BG_Space` to fit the whole screen by making sure that the image covers the grey rectangle that represents the camera
+3. Go to the Inspector window and change the Draw Mode from `Simple` to `Tiled`.
+4. Change the `Width` to 500 and the `Height` to 500.
+5. Expand the Visibility Options and set the Sorting Layer to Background to ensure that this element will always be behind other game elements
+6. Resize `BG_Space` to fit the whole screen by making sure that the image covers the grey rectangle that represents the camera
 
 ### 3. Create and Add Interactivity to the Player
 
-1. Go to Project > Images > Spaceships > SpaceshipRed
-2. In the Project View, navigate to Images > Backgrounds > `BG_Space` and drag it into the Hierarchy
-3. Go to Inspector > Add Component > Search for Push and add it
-4. When you add the Push script, you will notice that a Rigidbody 2D was also automatically added to the Inspector. This is because physics is required to make the game object move
-5. Make adjustments:
-   1. On Rigidbody 2D > change the Gravity value to 0
-   2. Friction to 2
-   3. Push (Script) > change the Push strength from 5 to 8
-6. Test the game by clicking the Play button and use the arrow keys to move the spaceship
+1. Go to Project > Images > Spaceships > `SpaceshipRed`
+2. Go to Inspector > Add Component > Search for `Push` and add it
+3. When you add the Push script, you will notice that a Rigidbody 2D was also automatically added to the Inspector. This is because physics is required to make the game object move
+4. Make adjustments:
+   1. On Rigidbody 2D component:
+      1. change the `Gravity` value to 0
+      2. change `Linear Drag` to 2
+      3. you many change the `Angular Drag` to a value higher to slow down the rotation speed but this is optional.
+   2. Push Script Component > change the `Push strength` from 5 to 8
+5. Test the game by clicking the Play button and use the arrow keys to turn the spaceship and spacebar to push it forward.
 
 #### Push Script
 
@@ -68,11 +70,9 @@ You’ll set the scene by creating a background for your game.
 
 ### 4. Add the Rotate script to the Player
 
-1. Go to Inspector > Add Component > Search for Rotate and add it to allow steering
-2. Change the Input keys (Type of Central) from Arrow Keys to WASD
-3. Test the changes by going to Play mode. Change the values of:
-   1. Rigidbody 2D > Angular Friction
-   2. Rotate (Script) > Speed
+1. Go to Inspector > Add Component > Search for `Rotate` and add it to allow steering
+2. Change the Input keys (Type of Central) from Arrow Keys to `WASD`
+3. Test the changes by going to Play mode. In the Rotate Script Component, you may change the `Speed` variable to something that seems fun to fly around.
 
 ### 5. Add a Flame to the Spaceship
 
