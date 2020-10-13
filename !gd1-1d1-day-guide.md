@@ -9,3 +9,5 @@
 7. Karting Microgame Day 2
 8. Player Interaction Models
 9. Playgrounds - Setup Game, Player Control, Camera, Collision
+10. Playgrounds - Setup Game, Player Control, Camera, Collision <--had to finish from the first day
+11. Playground Space Shooter -- Add Health, Objects, and Level Layout
