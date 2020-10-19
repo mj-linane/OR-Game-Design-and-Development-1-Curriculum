@@ -1,13 +1,16 @@
-# 1D1 3D2 Day Guide
+# 1D1 Day Guide
 
 1. Introduction Day
-2. Game Design Elements / First Game
-3. Install Unity / FPS Microgame
-4. FPS Microgame Day 1, Unity Collaborate
-5. Core Game Mechanics
-6. Karting Microgame Day 1
-7. Karting Microgame Day 2
-8. Player Interaction Models
-9. Playgrounds - Setup Game, Player Control, Camera, Collision
-10. Playgrounds - Setup Game, Player Control, Camera, Collision <--had to finish from the first day
-11. Playground Space Shooter -- Add Health, Objects, and Level Layout
+2. (short) Game Design Elements / First Game
+3. (short) Core Game Mechanics
+4. Install Unity / FPS Microgame
+5. Karting Microgame Day 1, Unity Collaborate
+6. Karting Microgame Day 2
+7. (short) Player Interaction Models
+8. Playgrounds - Setup Game, Player Control, Camera, Collision
+9. Playgrounds - Setup Game, Player Control, Camera, Collision <--had to finish collision from the first day
+10. Playground Space Shooter -- Add Health, Objects, and Level Layout, Aliens
+11. complete the game planning doc / independent game design
+12. (short) game planning doc / independent game design
+13. independent playgrounds
+14. independent playgrounds
